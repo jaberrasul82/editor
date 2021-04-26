@@ -1,0 +1,137 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+#div-main{
+width: 100%;
+height:100vh;
+background: url(log.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100vh ;
+}
+#img{
+     position: absolute;
+     left:500px;
+     top: 10px;
+     width: 7%;
+     height: 13vh;
+     border-radius: 58px;
+opacity: 0.9;
+    
+}
+#nav{
+     border-radius:15px;
+     width: 100%;
+     height:15vh;
+     background-color: rgba(29, 151, 131, 0.685);
+}
+#main{
+     width:100%;
+     height: 85vh;
+     background:none;
+}
+#pp{
+     font-family: sans-serif;
+     font-style: italic;
+     font-size: 40px;
+     color:transparent;
+     background: url(logi.jpg);
+     -webkit-background-clip: text;
+     font-weight: 50px;  
+}
+#div-p{
+     position:absolute;
+     top:39px;
+     left:620px;
+     outline: none;
+     border-radius: 17px;
+     background-color:#ef0505a2 ;
+     box-shadow: 3px 3px #003cff;
+}
+textarea{
+     margin: 0;
+     width: 99.8%;
+     height:36vh;
+     overflow: none;
+     outline: none;
+     border: 0;
+     border-radius: 15px;
+     font-family: sans-serif;
+     font-style: italic;
+     font-size: 32px;
+     font-weight: 10px bold;
+}
+#textarea{
+     margin-top:25px;
+     margin-bottom: 10px;
+     background:#ef0505c9;
+     color:  #003cff;
+}
+#textarea-result{
+     margin: 0;
+     width: 99.8%;
+     height:36vh;
+     overflow: none;
+     outline: none;
+     border: 0;
+     border-radius: 15px;
+     font-family: sans-serif;
+     font-style: italic;
+     font-size: 32px;
+     font-weight: 10px bold;
+     background:#003cffc2;
+     color:rgb(255, 0, 0);
+     margin-top: 10px;
+}
+button{
+     width: 41%;
+     height: 5vh;
+     outline: none;
+     border: none;
+border-radius: 20px;
+font-family: sans-serif;
+font-style:italic;
+font-size: 30px;
+font-weight: bold;
+     
+}
+#remove{
+position:absolute;
+left: 20px;
+background:rgb(47, 0, 255) ;
+color: red;
+box-shadow: 3px 3px red;
+}
+#run{
+     position:absolute;
+     left: 930px;
+     background: rgb(255, 2, 2);
+     color:rgb(4, 0, 255);
+     box-shadow: 3px 3px rgb(0, 38, 255);
+}
+#p{
+    
+     color: #00f7ff;
+     font-size: 40px;
+}
+#div-{
+     position: absolute;
+     left: 700px;
+     top: 435px;
+     background: linear-gradient(45deg , red 50% , rgb(0, 4, 255) 50%);
+     border-radius: 20px;
+}
+#remove:hover{
+     transition: 3s ease;
+     background: red;
+     cursor:pointer;
+     color:rgb(38, 0, 255);
+     box-shadow: 3px 3px rgb(4, 0, 255)
+}
+#run:hover{
+     transition: 3s ease;
+     background:rgb(0, 4, 255);
+     cursor: pointer;
+     color: rgb(255, 0, 0);
+     box-shadow: 3px 3px red;
+}
